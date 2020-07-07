@@ -1,5 +1,6 @@
 # uptime-robot-query-and-store
-Query Uptime Robot and store results to a postgres database and post the same to slack
+Query Uptime Robot and store results to a postgres database and post the same to slack.
+
 This repo has a script to query the uptime robot api and store the results in a postgres database and post the same to a slack channel. 
 
 To set it up you will need to first crete a file named `.env` for you to store your environment variables. 
