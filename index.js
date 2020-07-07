@@ -126,7 +126,7 @@ cron.schedule(process.env.CRON_SCHEDULE, function () {
   });
 
   req.write(qs.stringify({
-    api_key: 'u956647-8da1baf581108a42a942d540',
+    api_key: process.env.UPTIME_ROBOT_API_KEY,
     format: 'json',
     custom_uptime_ranges: getLastMonthRangeInTicks(),
     all_time_uptime_ratio: 1
