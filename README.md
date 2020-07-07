@@ -15,4 +15,5 @@ PG_DB_PASSWORD="top_secret"
 PG_DB_PORT="5432"
 SLACK_WEBHOOK_URL="https://slack-webhook-url.com"
 CRON_SCHEDULE="0 3 1 * *"
+UPTIME_ROBOT_API_KEY="api-key"
 ```
